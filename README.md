@@ -9,4 +9,4 @@ This is a collection of templates built with HTML5, CSS3 &amp; JS. These templat
 
 **PSD Source:** [PSDFreebies.com](https://psdfreebies.com/psd/4-flat-style-login-screens-psd/ "PSDFreebies.com")
 
-**Demo: ** [Live Demo Here](https://html5-templates-collections.netlify.com/1-flat-login-template/ "Live Demo Here")
+**Demo:** [Live Demo Here](https://html5-templates-collections.netlify.com/1-flat-login-template/ "Live Demo Here")
