@@ -1,6 +1,85 @@
 /*1. Basic styles*/
 
 body {
-  background: url(img/bg.jpg) no-repeat;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: url(img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
+
+#container {
+  /*border: 2px solid red;*/
+  width: 385px;
+  height: 385px;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*2. Common form styles*/
+
+.form-logo {
+  padding-left: 30px;
+  margin: 0 0 40px;
+}
+
+.registration-btn {
+  background-color: rgba(31, 144, 138, 1);
+  width: 120px;
+  height: 45px;
+  position: absolute;
+  border: none;
+  color: white;
+}
+
+.registration-btn:hover {
+  background-color: rgba(31, 144, 138, .8);
+}
+
+/*3. Signup styles*/
+
+#signup-section {
+  background-color: #fefefe;
+  height: 385px;
+  width: 245px;
+  padding: 80px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#signup-form {
+  padding-left: 30px;
+}
+
+input {
+  width: 100%;
+  color: #888888;
+  border: none;
+  height: 1.1rem;
+  padding: 5px 0;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(31, 144, 138, .3);
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid rgba(31, 144, 138, 1);
+}
+
+button[name="signup"] {
+  bottom: 0;
+  left: 0;
+}
+
+/*4. Login styles*/
+
+
+
+/*5. Transiction animation*/
