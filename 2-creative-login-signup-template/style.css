@@ -21,12 +21,19 @@ body {
   transform: translate(-50%, -50%);]
 }
 
-.bg-shadow {
+.active {
   -webkit-box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
   -moz-box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
   -o-box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
   -ms-box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
   box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
+
+  z-index: 5;
+}
+
+.inactive, .inactive input {
+  border: none;
+
 }
 
 
@@ -45,7 +52,10 @@ body {
   color: white;
 }
 
-
+button:disabled {
+  cursor: not-allowed;
+  background-color: #b7b7b7 !important;
+}
 
 .btn.green {
   background-color: rgba(31, 144, 138, 1);
@@ -62,7 +72,7 @@ body {
 
 /*3. Signup styles*/
 
-#signup-section {
+#signup-card {
   background-color: #fff;
   height: 385px;
   width: 245px;
@@ -97,7 +107,7 @@ button[name="signup"] {
 }
 
 /*4. Login styles*/
-#login-section {
+#login-card {
   background-color: #fff;
   height: 320px;
   width: 279px;
