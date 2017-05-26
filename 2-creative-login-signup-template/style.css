@@ -31,8 +31,12 @@ body {
   z-index: 5;
 }
 
-.inactive, .inactive input {
+.inactive {
   border: none;
+}
+
+.inactive input {
+  border-bottom: 1px solid #eee;
 
 }
 
