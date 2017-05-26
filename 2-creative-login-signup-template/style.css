@@ -21,6 +21,27 @@ body {
   transform: translate(-50%, -50%);]
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+footer p {
+  display: inline-block;
+  color: #888;
+  font-size: .7rem;
+}
+
+footer p a {
+  color: #4ca6a1;
+  text-decoration: none;
+}
+
 .active {
   -webkit-box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
   -moz-box-shadow: 0 0 200px 1px rgba(0,0,0,.3);
