@@ -1,0 +1,6 @@
+/*1. Basic styles*/
+
+body {
+  background: url(img/bg.jpg) no-repeat;
+  background-size: cover;
+}
