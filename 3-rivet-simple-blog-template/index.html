@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab">
   </head>
   <body>
+
     <header>
       <div id="header-banner">
         <div id="logo">
@@ -17,25 +18,36 @@
       </div>
 
       <nav>
-        <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Category</li></a>
-          <a href="#"><li>Contact</li></a>
-
-        </ul>
+        <div class="container">
+          <ul class="float-left">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+          </ul>
+          <ul class="float-right">
+            <a href="#"><li>Category</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </div>
       </nav>
 
-      <h2 id="tag-line">Hello, Welcome to my Blog!</h2>
+      <div class="container" id="tag-line">
+        <h2>Hello, Welcome to my Blog!</h2>
+        <hr>
+        <hr>
+      </div>
+
     </header>
 
-    <main>
+    <main class="container">
       <div class="posts">
+
+        <div class="post-date">
+          <p>31 Jul</p>
+        </div>
 
         <div class="post-info">
           <ul>
-            <li class="post-date">31 Jul</li>
-            <li class="post-category">cat: <span>Diary, Personal</span></li>
+            <li class="post-category">cat: <span><a href="#">Diary</a>, <a href="#">Personal</a></span></li>
             <li class="post-like">
               <i class="fa fa-heart" aria-hidden="true"></i> 100 Likes
             </li>
@@ -46,11 +58,13 @@
         </div>
 
         <div class="post-body">
-          <h2 class="post-title">Lorem ipsum dolor sit amet</h2>
+          <h2 class="post-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
           <p class="post-summary">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <a href="#" class="post-read-more">Read More</a>
+          <div class="post-read-more">
+            <a href="#" >Read More</a>
+          </div>
         </div>
       </div>
 
