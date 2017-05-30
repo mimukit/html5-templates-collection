@@ -5,18 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rivet | Simple Blog Template</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
+      <div id="header-banner">
+        <div id="logo">
+          <h1>Revit | Simple Blog Template</h1>
+        </div>
+      </div>
 
+      <nav>
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Category</li></a>
+          <a href="#"><li>Contact</li></a>
+
+        </ul>
+      </nav>
+
+      <h2 id="tag-line">Hello, Welcome to my Blog!</h2>
     </header>
 
     <main>
+      <div class="posts">
 
+        <div class="post-info">
+          <ul>
+            <li class="post-date">31 Jul</li>
+            <li class="post-category">cat: <span>Diary, Personal</span></li>
+            <li class="post-like">
+              <i class="fa fa-heart" aria-hidden="true"></i> 100 Likes
+            </li>
+            <li class="post-comment">
+              <i class="fa fa-comment" aria-hidden="true"></i> 21 Comments
+            </li>
+          </ul>
+        </div>
+
+        <div class="post-body">
+          <h2 class="post-title">Lorem ipsum dolor sit amet</h2>
+          <p class="post-summary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <a href="#" class="post-read-more">Read More</a>
+        </div>
+      </div>
+
+      <hr>
+
+      <button id="btn-load-more">Load More</button>
     </main>
 
     <footer>
-
+        <p>Developed by <a href="https://github.com/mimukit" title="Github Profile of MI MUKIT">MI MUKIT</a> &amp; Designed by: <a href="http://fikristudio.com/" title="Fikristudio">Fikristudio</a></p>
     </footer>
   </body>
 </html>
