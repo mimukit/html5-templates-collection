@@ -247,3 +247,127 @@ footer p a {
 footer p a:hover {
   border-bottom: 1px solid rgba(62,179,165, 1);
 }
+
+/*6. Media queries */
+
+@media only screen and (max-width: 950px) {
+  #logo {
+    top: 60px;
+  }
+
+  nav {
+    padding-left: 10%;
+  }
+
+  .float-left, .float-right {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  nav {
+    padding-left: 0;
+  }
+
+  #logo {
+    top: 60px;
+  }
+
+  nav {
+    height: 100%;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #tag-line h2{
+    font-size: 3.0rem;
+    margin-bottom: 30px;
+  }
+
+  .post-date {
+    left: 37%;
+  }
+
+  .post-info {
+    clear: both;
+    padding: 0;
+    float: none;
+    margin: 100px 0 30px;
+    text-align: center;
+  }
+
+  .post-info li {
+    float: none;
+    display: block;
+    margin: 15px 0;
+  }
+
+  .post-body {
+    margin: 0;
+    padding: 20px;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #logo {
+    top: 60px;
+  }
+
+.float-left, .float-right, nav ul, nav li {
+    float: none;
+  }
+
+  nav {
+    height: 100%;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #tag-line h2{
+    font-size: 3.0rem;
+    margin-bottom: 30px;
+  }
+
+  .post-date {
+    left: 37%;
+  }
+
+  .post-info {
+    clear: both;
+    padding: 0;
+    float: none;
+    margin: 100px 0 30px;
+    text-align: center;
+  }
+
+  .post-info li {
+    float: none;
+    display: block;
+    margin: 15px 0;
+  }
+
+  .post-body {
+    margin: 0;
+    padding: 20px;
+    border: none;
+  }
+}
