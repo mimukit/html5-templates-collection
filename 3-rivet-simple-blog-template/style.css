@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
 
+a {
+  font-family: 'Roboto Slab', serif;
+}
+
 .container {
   max-width: 960px;
   width: 80%;
@@ -76,6 +80,10 @@ nav li {
   margin: 15px 15px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav li:hover {
   color: #3eb3a5;
   border-bottom: 5px solid #3eb3a5;
@@ -93,7 +101,6 @@ nav:after {
   text-align: center;
   padding-top: 80px;
   box-sizing: border-box;
-  margin-bottom: 50px;
 }
 #tag-line h2 {
   margin-bottom: 10px;
@@ -111,12 +118,11 @@ nav:after {
 }
 
 /*4. Posts*/
-.posts {
-  /*box-sizing: border-box;*/
-  /*float: left;*/
-
+.post {
+  margin: 100px 0;
+  padding-bottom: 50px;
+  border-bottom: 2px dashed #ddd;
 }
-
 
 .post-date {
   font-size: 3.0rem;
@@ -137,7 +143,7 @@ nav:after {
 }
 
 .post-info {
-    padding: 0 0 20px 140px;
+    padding: 0 0 25px 140px;
     color: #8e8e8e;
 }
 
@@ -201,4 +207,43 @@ nav:after {
   color: #3eb3a5;
 }
 
+#btn-load-more {
+  font-size: 1.6rem;
+  background-color: rgba(62,179,165, 1);
+  width: 140px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto 50px;
+}
+
+#btn-load-more a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#btn-load-more:hover {
+  background-color: rgba(62,179,165, .8);
+}
 /*5. Footer*/
+
+footer {
+  margin: 50px auto;
+}
+
+footer p {
+  font-family: 'Roboto Slab', serif;
+  color: #555;
+  text-align: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: rgba(62,179,165, 1);
+}
+
+footer p a:hover {
+  border-bottom: 1px solid rgba(62,179,165, 1);
+}
